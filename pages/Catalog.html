@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css"> 
+    <title>Каталог</title>
+</head>
+<body>
+    <header>
+        <div class="heder-logo">
+            <h1 class="logo-title">Audiowawe</h1>
+            <a href="../Main.html"><img src="../images/Logo_1.png" alt=""></a>
+        </div>
+        <nav class="header-links">
+            <a class="links" href="Main.html">Главная</a>
+            <a class="links" href="news.html">Новости</a>
+            <a class="links last child" href="About.html">О нас</a>
+        </nav>
+        <a class="icon" href="cart.html"><img src="../images/cart.svg" alt=""></a>
+        <a class="icon" href="account.html"><img src="../images/user-user.png" alt=""></a>
+        <div class="authorization">
+            <a href="entrance.html"class="special_button">Вход</a>
+            <a href="registration.html"class="special_button">Регистрация</a>
+        </div>
+    </header>
+    <hr>
+    <section class="main">
+        <div class="main_wrapper">
+            <div class="main_description">
+                <p class="title_description">У нас самый широкий ассортимент товара</p>
+                <p class="title_description">на рынке среди конкурентов</p>
+            </div>
+            <div class="arrow-8"></div>
+        </div>
+        <div class="way_page">
+            <p class="way_page_title">Главная</p>
+            <p class="way_page_title">Каталог</p>
+        </div>
+    </section>
+    <hr class="main_line">
+    <section class="catalog">
+        <div class="catalog_filter_wrapper">
+            <h2 class="catalog_title">Укажите следующие параметры, чтобы найти нужный вам товар</h2>
+            <div class="catalog_filter">
+                <div class="Upper_filter_level">
+                    <div class="catalog_search">
+                        <input class="header-input" type="text" placeholder="Введите название товара">
+                        <img class="catalog_search_image" src="../images/Search.png" alt="">
+                    </div>
+                    <button class="catalog_button">Выбор раздела</button>
+                    <button class="catalog_button">Цена товара</button>
+                    <button class="catalog_button">Производитель</button>
+                </div>
+                <div class="down_filter_level">
+                    <button class="catalog_button">Сортировка</button>
+                    <button class="catalog_button_search">Применить</button>
+                </div>
+                <div class="container_cost">
+                    <h2 class="title">Установите ценовой диапазон</h2>
+                    <div class="cost">
+                        <p class="cost_text">Min</p>
+                        <input class="input_cost" type="text" placeholder="Минимальная стоимость">
+                    </div>
+                    <div class="cost">
+                        <p class="cost_text">Max</p>
+                        <input class="input_cost" type="text" placeholder="Максимальная стоимость">
+                    </div>
+                    <button class="window_button">Применить</button>
+                </div>
+                <div class="container_manufacturer">
+                    <h2 class="title">Выберите производителя</h2>
+                    <div class="manufacturer_wrapper">
+                        <div class="left_block">
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Pride</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Oris</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Zeus</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Amp</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Pride</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Momo</label>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Swat</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Avatar</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Aura</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Acv</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Zeus</label>
+                            </div>
+                            <div class="checkbox_wrapper">
+                                <input type="checkbox" id="check">
+                                <label for="check">Kicx</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="window_button">Применить</button>
+                </div>
+                <div class="sorting_container">
+                    <h2 class="title">Выберите вид сортировки</h2>
+                        <div class="radio_button">
+                            <input type="radio" id="sortingButton" name="sorting" value="">
+                            <label for="contactChoice1">По популярности(возрастание)</label> <br>
+                        </div>
+                        <div class="radio_button">
+                            <input type="radio" id="sortingButton" name="sorting" value="">
+                            <label for="sortingButton">По популярности(убывание)</label> <br>
+                        </div>
+                        <div class="radio_button">
+                            <input type="radio" id="sortingButton" name="sorting" value="">
+                            <label for="sortingButton">По возрастанию цены </label> <br>
+                        </div>
+                        <div class="radio_button">
+                            <input type="radio" id="sortingButton" name="sorting" value="">
+                            <label for="sortingButton">По убыванию цены</label> <br>
+                        </div>
+                    <button class="window_button">Применить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="result_search">
+        <h2 class="result_title">Результаты по вашим запросам</h2>
+        <div class="result_wrapper">
+            <div class="card_upper_level">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_down_level">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../images/card.png" alt="">
+                        <div class="selles">
+                            <p>Новинка</p> 
+                        </div>
+                    </div>
+                    <div class="card-description">
+                        <h1 class="name-card">AP-M81SE</h1>
+                        <p class="name-price">6200p</p>
+                        <a href="product.html"class="special_button">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more_product_button">
+            <button class="more_product special_button">Показать еще</button>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <h2 class="footer-navigation">Навигация по сайту</h2>
+                <a class="links-navigation" href="About.html">О компании</a>
+                <a class="links-navigation" href="Main.html">Главная</a>
+                <a class="links-navigation" href="Catalog.html">Каталог</a>
+                <a class="links-navigation" href="news.html">Новости</a>
+            </div>
+            <div class="footer-contact">
+                <h2 class="footer-navigation">Наши контакты</h2>
+                <div class="telephone">
+                    <div class="phone-img">
+                        <img src="../images/telephone.png" alt="">
+                    </div>
+                    <div class="number-phone">
+                        <p>89002792993</p>
+                    </div>
+                </div>
+                <div class="telegram">
+                    <div class="image-telegram">
+                        <img src="../images/telegramm.png" alt="">
+                    </div>
+                    <div class="telegram-link">
+                        <p>Telegram</p>
+                    </div>
+                </div>
+                <div class="GitHub">
+                    <div class="image-GitHub">
+                        <img src="../images/GitHub.png" alt="">
+                    </div>
+                    <div class="GitHub-link">
+                        <p>GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="low_level_footer">
+            <h1 class="logo-title">Audiowawe</h1>
+            <img src="../images/Logo_1.png" alt="">
+        </div>
+    </footer>
+
+    <div class="windows_wrapper">
+        
+
+        <div class="contaienr_size">
+            <h2 class="title">Выберите размер динамика</h2>
+            <div class="checkbox_wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">“8” 20см</label>
+            </div>
+            <div class="checkbox_wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">“10” 25см</label>
+            </div>
+            <div class="checkbox_wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">“12” 30см</label>
+            </div>
+            <div class="checkbox_wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">“15” 35см</label>
+            </div>
+            <div class="checkbox_wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">“18” 40см</label>
+            </div>
+            <button class="window_button">Применить</button>
+        </div>
+
+        <div class="container_player">
+            <h2 class="title">Выберите вид магнитолы</h2>
+            <div class="radio_button">
+                <input type="radio" id="soundDevice" name="carRadio" value="">
+                <label for="soundDevice">2 DIN</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="soundDevice" name="carRadio" value="">
+                <label for="soundDevice">1 DIN</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="soundDevice" name="carRadio" value="">
+                <label for="soundDevice">Teyes</label> <br>
+            </div>
+            <button class="window_button">Применить</button>
+        </div>
+
+        <div class="container_acoustics">
+            <h2 class="title">Выберите тип акустики</h2>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Среднечастотная </label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Мидбас</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Компонентная</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Высокочастотная</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Коаксиальная</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="acousticsType" name="acoustics" value="">
+                <label for="acousticsType">Ремкомплекты</label> <br>
+            </div>
+            <button class="window_button">Применить</button>
+        </div>
+
+
+        <div class="container_amplifiers">
+            <h2 class="title">Выберите вид усилителей</h2>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">моноблоки </label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">2-х канальные</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">4-х канальные</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">5-ти канальные</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">6-ти канальные</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">многоканальные</label> <br>
+            </div>
+            <div class="radio_button">
+                <input type="radio" id="amplifierType" name="amplifier" value="">
+                <label for="amplifierType">все виды</label> <br>
+            </div>
+            <button class="window_button">Применить</button>
+        </div>
+
+
+        <div class="nutrition_container">
+            <h2 class="title">Выберите необходимое</h2>
+                <div class="radio_button">
+                    <input type="radio" id="accamulatorType" name="accamulator" value="">
+                    <label for="accamulatorType">Аккамуляторы</label> <br>
+                </div>
+                <div class="radio_button">
+                    <input type="radio" id="accamulatorType" name="accamulator" value="">
+                    <label for="accamulatorType">Титанат(LTO)</label> <br>
+                </div>
+                <div class="radio_button">
+                    <input type="radio" id="accamulatorType" name="accamulator" value="">
+                    <label for="accamulatorType">Генераторы и комплектующие</label> <br>
+                </div>
+                <div class="radio_button">
+                    <input type="radio" id="accamulatorType" name="accamulator" value="">
+                    <label for="accamulatorType">Аккамуляторы и аксессуары</label> <br>
+                </div>
+            <button class="window_button">Применить</button>
+        </div>                                    
+    </div>
+<script src="../script/Script.js"></script>
+</body>
+</html>
